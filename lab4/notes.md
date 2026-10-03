@@ -6,4 +6,11 @@
 6. README.md moved from "Untracked files" to "Changes to be committed". 
 7. Git printed a summary showing the branch name (main), the commit hash, the commit message, and a line listing how many files changed and how many insertions occurred. It indicated that all staged files were committed into a new snapshot.
 8. The first seven characters are called a short commit hash (an abbreviated SHA-1 checksum). They serve as a unique identifier for that specific commit snapshot in the repository's history.
+9. The four steps of the Git loop are: Edit (git status), Stage (git add <file>), and Commit (git commit -m "message") and then git log --oneline.
+10. README.md has a special name and top-level location because platforms like GitHub automatically render its content on the main repository home page. Collaborators can have an immediate overview of the project and its layout.
+11. gh auth login authenticates the account in the browser and stores a secure security token locally to authorize future pushes and pull automatically without prompting for a password.
+12. The formatted contents of README.md render on the main page of the repository. GitHub is specifically designed to look for a top-level README.md file and display its contents as the main documentation front page.
+13. No, running git push does not alter your local commit history at all. It simply uploads your existing local commits and branch references to GitHub so that the remote copy matches your local history.
+14. A private repository exists online on GitHub's servers but restricts view and edit access strictly to you and explicitly invited collaborators. In contrast, a repository that does not exist on GitHub has no online copy or remote server URL configured anywhere.
+
 
